@@ -5,7 +5,7 @@ const mongoose = require('mongoose')
 var bodyParser = require('body-parser')
 const workoutRoutes = require('./routes/workouts');
 const userRoutes = require('./routes/users')
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 4000;
 
 const app = express();
 app.use(cors())
